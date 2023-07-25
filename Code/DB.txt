@@ -1,0 +1,30 @@
+create table Workflows {
+	id: {UUID}
+	name: {String}
+	currentProcess: {UUID}
+	desciption: {String}
+}
+
+
+create table Processes {
+	id: {UUID}
+	type: {String}
+	name: {String}
+	lane : {String}
+	userID: {UUID}
+	links: {UUID[] or Json}
+	desciption: {String}
+}
+
+
+create table Links {
+	id: {UUID}
+	type: {String}
+	name: String}
+	from: {UUID}
+	to: {UUID}
+	condition: {String}
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

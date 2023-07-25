@@ -1,0 +1,31 @@
+V 1.0:
+	File Added Or changed:
+		•	\WorkflowTask\Code\Openmetadata-Service\WorkflowModelsLogic\ConnectDatabaseToPlatformLogic.java
+		•	\WorkflowTask\Code\Openmetadata-Service\WorkflowModelsLogic\FillTableUpperFieldsLogic.java
+		•	\WorkflowTask\Code\Openmetadata-Spec\src\ProcessModels\ConnectDatabaseToPlatform.json
+		•	\WorkflowTask\Code\Openmetadata-Spec\src\ProcessModels\FillTableUpperFields.json
+		•	\WorkflowTask\Code\Openmetadata-Spec\src\Link.json
+		•	\WorkflowTask\Code\Openmetadata-Spec\src\Process.json
+		•	\WorkflowTask\Code\Openmetadata-Spec\src\Workflow.json
+		•	(Auto Generate) \WorkflowTask\Code\Openmetadata-Spec\target
+		•	\WorkflowTask\Code\DB.txt
+		•	\WorkflowTask\Code\Workflow-1.yaml
+		•	\WorkflowTask\Explain.docx
+		•	\WorkflowTask\Sample-Diagram.vsdx
+		•	\WorkflowTask\Questions.vsdx
+		•	\WorkflowTask\Code\Openmetadata-Service\ProcessRepository.java
+		•	\WorkflowTask\Code\Openmetadata-Service\ProcessResource.java
+		•	\WorkflowTask\Code\Openmetadata-Service\WorkflowRepository.java
+		•	\WorkflowTask\Code\Openmetadata-Service\WorkflowResource.java
+
+
+V 1.1:
+
+
+
+
+
+
+
+
+

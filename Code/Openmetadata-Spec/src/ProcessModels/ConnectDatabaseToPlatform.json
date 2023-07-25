@@ -1,0 +1,39 @@
+{
+  "$id": "https//open-metadata.org/schema/entity/data/ConnectDatabaseToPlatform.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ConnectDatabaseToPlatform",
+  "description": "This schema defines the ConnectDatabaseToPlatform entity.",
+  "type": "object",
+  "definitions": {
+    "entityName": {
+      "description": "Name of a entity.",
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128,
+      "pattern": "^((?!::).)*$"
+    }
+  },
+  "properties": {
+    "id": {
+      "description": "Unique identifier that identifies this ConnectDatabaseToPlatform instance.",
+      "$ref": "../../type/basic.json#/definitions/uuid"
+    },
+    "name": {
+      "description": "Name that identifies the ConnectDatabaseToPlatform.",
+      "$ref": "#/definitions/entityName"
+    },
+    "fullyQualifiedName": {
+      "description": "Name that uniquely identifies a ConnectDatabaseToPlatform.",
+      "$ref": "../../type/basic.json#/definitions/fullyQualifiedEntityName"
+    },
+    "displayName": {
+      "description": "Display Name that identifies this ConnectDatabaseToPlatform.",
+      "type": "string"
+    },
+    "description": {
+      "description": "Description of the ConnectDatabaseToPlatform instance.",
+      "$ref": "../../type/basic.json#/definitions/markdown"
+    }
+  },
+  "additionalProperties": false
+}

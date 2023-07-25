@@ -1,0 +1,38 @@
+workflow:
+    process:
+        refName: ConnectDatabaseToPlatform
+        links:
+            - Connect-To-Fill
+        
+    process:
+        refName: FillTableUpperFields
+        links:
+            - Fill-To-Connect
+            - Fill-To-Finish
+        
+        
+        
+        
+        
+        
+        
+        
+    link:
+       Name: Connect-To-Fill
+       from: ConnectDatabaseToPlatform
+       to: FillTableUpperFields
+       condtion:
+       
+    link:
+       Name: Fill-To-Connect
+       from: FillTableUpperFields
+       to: ConnectDatabaseToPlatform
+       condtion: "??"
+       
+    link:
+       Name: Fill-To-Finish
+       from: FillTableUpperFields
+       to: Finish
+       condtion: "??"
+       
+       
