@@ -4,6 +4,8 @@
   "title": "ConnectDatabaseToPlatform",
   "description": "This schema defines the ConnectDatabaseToPlatform entity.",
   "type": "object",
+  "Java-Interface": Interfaces/Process-Interface.java,
+  "Extend": ../Process.json,
   "definitions": {
     "entityName": {
       "description": "Name of a entity.",

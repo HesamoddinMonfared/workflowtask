@@ -2,8 +2,11 @@ V 1.0:
 	Questions:
 		•	How to write conditions in \WorkflowTask\Code\Workflow-1.yaml?
 		•	How to write code for WorkflowTask\Code\Openmetadata-Service\WorkflowModelsLogic?
-		•	How to save all \WorkflowTask\Code\Openmetadata-Spec\src\ProcessModels in one table (Process Table) in database?
 		•	Do we need \WorkflowTask\Code\Openmetadata-Service\LinkRepository.java   And   \WorkflowTask\Code\Openmetadata-Service\LinkResource.java
+		
+		
+		
 
-
+	Notes:
+		•	We need write new class and recompile for new processes.
 

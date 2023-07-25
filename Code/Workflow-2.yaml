@@ -1,13 +1,13 @@
 workflow:
     process:
-        refName: ConnectDatabaseToPlatform
-        lane: "Datagovernance"
+        refName: ConnectDatabaseToPlatform2
+        lane: "DataSteward"
         links:
             - Connect-To-Fill
         
     process:
         refName: FillTableUpperFields
-        lane: "DataSteward"
+        lane: "Datagovernance"
         links:
             - Fill-To-Connect
             - Fill-To-Finish
