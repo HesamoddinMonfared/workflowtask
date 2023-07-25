@@ -1,12 +1,15 @@
 V 1.0:
 	Questions:
-		•	How to write conditions in \WorkflowTask\Code\Workflow-1.yaml?
-		•	How to write code for WorkflowTask\Code\Openmetadata-Service\WorkflowModelsLogic?
-		•	Do we need \WorkflowTask\Code\Openmetadata-Service\LinkRepository.java   And   \WorkflowTask\Code\Openmetadata-Service\LinkResource.java
+		•	Do we need make just "Process" class, or we need "ConnectDatabaseToPlatform", "FillTableUpperFields" and .....?
+			- if we have just "Process", what about the Logic diffrence between each processes?
+			- if we need "ConnectDatabaseToPlatform", "FillTableUpperFields" and ..., then We need write new class and recompile for new processes.
+			
+		•	Do we need "System Condition"? if yes, how we can manage them? There can be a lot of conditions like: (X >10 or CheckFileExist() and .....)
+		
+		•	Is Condition a special type of Process?
 		
 		
 		
-
-	Notes:
-		•	We need write new class and recompile for new processes.
-
+		
+		Note:
+			condition: "val && (x==8 || temp<=27)"

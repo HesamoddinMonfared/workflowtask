@@ -20,9 +20,9 @@ create table Processes {
 create table Links {
 	id: {UUID}
 	type: {String}
-	name: String}
-	from: {UUID}
-	to: {UUID}
+	name: {String}
+	from: {String}
+	to: {String}
 	condition: {String}
 }
 

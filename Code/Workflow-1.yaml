@@ -1,12 +1,12 @@
 workflow:
     process:
-        refName: ConnectDatabaseToPlatform
+        name: ConnectDatabaseToPlatform
         lane: "Datagovernance"
         links:
             - Connect-To-Fill
         
     process:
-        refName: FillTableUpperFields
+        name: FillTableUpperFields
         lane: "DataSteward"
         links:
             - Fill-To-Connect
@@ -20,21 +20,21 @@ workflow:
         
         
     link:
-       Name: Connect-To-Fill
+       name: Connect-To-Fill
        from: ConnectDatabaseToPlatform
        to: FillTableUpperFields
        condtion:
        
     link:
-       Name: Fill-To-Connect
+       name: Fill-To-Connect
        from: FillTableUpperFields
        to: ConnectDatabaseToPlatform
-       condtion: "??"
+       condtion: "?"
        
     link:
-       Name: Fill-To-Finish
+       name: Fill-To-Finish
        from: FillTableUpperFields
        to: Finish
-       condtion: "??"
+       condtion: "?"
        
        
